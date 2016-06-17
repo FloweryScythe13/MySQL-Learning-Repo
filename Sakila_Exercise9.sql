@@ -1,0 +1,1 @@
+SELECT ID FROM customer_list LEFT JOIN rental ON (customer_list.ID = rental.customer_id) WHERE rental.customer_id IS null

@@ -1,0 +1,1 @@
+SELECT FirstName, EmailAddress FROM CustomerAW WHERE CompanyName = "Bike World";

@@ -1,0 +1,1 @@
+SELECT category, COUNT(title) FROM film_list GROUP BY category ORDER BY category ASC;

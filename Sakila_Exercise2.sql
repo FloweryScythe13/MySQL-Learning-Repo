@@ -1,0 +1,1 @@
+SELECT country, COUNT(name) AS NumClients FROM `customer_list` GROUP BY country ORDER BY NumClients DESC LIMIT 5;

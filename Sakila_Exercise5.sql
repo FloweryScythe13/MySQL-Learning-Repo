@@ -1,0 +1,1 @@
+SELECT title, category FROM film_list ORDER BY category ASC;

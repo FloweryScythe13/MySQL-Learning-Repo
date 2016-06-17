@@ -1,0 +1,1 @@
+SELECT film_id, title FROM film_list LEFT JOIN inventory ON (film_list.FID = inventory.film_id) WHERE inventory.film_id IS null;
